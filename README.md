@@ -16,12 +16,19 @@ The study uses an open-source dataset from [fetal-fMRI - OpenNeuro](https://open
 ### Methodology
 1. **Preprocessing:** 
    - Detection of fetal brain regions using a pretrained model from prior studies.
+      <img width="500" alt="image" src="https://github.com/user-attachments/assets/715b3b27-20d7-48db-b726-c2ac57686c88" />
+
    - Ground truth creation for segmentation tasks.
+      <img width="396" alt="image" src="https://github.com/user-attachments/assets/ead5284a-b21d-4964-999f-1f37b827fa46" />
+
 2. **Frequency Regularization:**
    - Parameters manipulated in the frequency domain to suppress irrelevant high-frequency components using zigzag patterns.
    - Reconstruction of spatial tensors via the inverse discrete cosine transform (IDCT).
+      <img width="376" alt="image" src="https://github.com/user-attachments/assets/b105de16-97c9-4b95-a61d-9f92bbbc8ab5" />
+
 3. **Evaluation Metrics:**
    - Dice Score comparison between the baseline and enhanced methods.
+      <img width="1011" alt="image" src="https://github.com/user-attachments/assets/e02dc351-bbfd-4f3f-8073-5cf4739602f5" />
 
 ### Results
 - Dice Score improved from **0.3348** to **0.9439** after applying frequency regularization.
