@@ -19,6 +19,7 @@ The study uses an open-source dataset from [fetal-fMRI - OpenNeuro](https://open
       <img width="500" alt="image" src="https://github.com/user-attachments/assets/715b3b27-20d7-48db-b726-c2ac57686c88" />
 
    - Ground truth creation for segmentation tasks.
+     
      <img width="396" alt="image" src="https://github.com/user-attachments/assets/ead5284a-b21d-4964-999f-1f37b827fa46" />
 
 2. **Frequency Regularization:**
