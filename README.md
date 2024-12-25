@@ -19,12 +19,12 @@ The study uses an open-source dataset from [fetal-fMRI - OpenNeuro](https://open
       <img width="500" alt="image" src="https://github.com/user-attachments/assets/715b3b27-20d7-48db-b726-c2ac57686c88" />
 
    - Ground truth creation for segmentation tasks.
-      <img width="396" alt="image" src="https://github.com/user-attachments/assets/ead5284a-b21d-4964-999f-1f37b827fa46" />
+     <img width="396" alt="image" src="https://github.com/user-attachments/assets/ead5284a-b21d-4964-999f-1f37b827fa46" />
 
 2. **Frequency Regularization:**
    - Parameters manipulated in the frequency domain to suppress irrelevant high-frequency components using zigzag patterns.
    - Reconstruction of spatial tensors via the inverse discrete cosine transform (IDCT).
-      <img width="376" alt="image" src="https://github.com/user-attachments/assets/b105de16-97c9-4b95-a61d-9f92bbbc8ab5" />
+     <img width="376" alt="image" src="https://github.com/user-attachments/assets/b105de16-97c9-4b95-a61d-9f92bbbc8ab5" />
 
 3. **Evaluation Metrics:**
    - Dice Score comparison between the baseline and enhanced methods.
@@ -33,9 +33,6 @@ The study uses an open-source dataset from [fetal-fMRI - OpenNeuro](https://open
 ### Results
 - Dice Score improved from **0.3348** to **0.9439** after applying frequency regularization.
 - Enhanced segmentation quality, improving the reliability of gestational age predictions and delivery date estimations.
-
-<img width="1022" alt="image" src="https://github.com/user-attachments/assets/a38367e1-36a6-4262-9dfa-30889fe190b6" />
-
 
 ## Key Findings
 - The proposed approach demonstrated a **181.95% improvement** in segmentation accuracy.
