@@ -27,6 +27,9 @@ The study uses an open-source dataset from [fetal-fMRI - OpenNeuro](https://open
 - Dice Score improved from **0.3348** to **0.9439** after applying frequency regularization.
 - Enhanced segmentation quality, improving the reliability of gestational age predictions and delivery date estimations.
 
+<img width="1022" alt="image" src="https://github.com/user-attachments/assets/a38367e1-36a6-4262-9dfa-30889fe190b6" />
+
+
 ## Key Findings
 - The proposed approach demonstrated a **181.95% improvement** in segmentation accuracy.
 - Frequency regularization proved effective in reducing parameter redundancy while maintaining high performance.
